@@ -1,6 +1,6 @@
 <div align="center" >
- <img src="Images/poster.png" alt="poster" width="650">
- <p> Credit Card Database</p>
+    <img src="Images/poster.png" alt="poster" width="650">
+    <p> Credit Card Database</p>
 </div>
 
 
@@ -40,7 +40,7 @@ This section outlines the process of data cleaning and standardization using Pyt
 
 3. Standardizing and Cleaning Data
    
-   - Date Conversion from object to int64
+- Date Conversion from object to int64
    ```python
    df['Date'] = pd.to_datetime(df['Date'])
    
@@ -51,7 +51,7 @@ This section outlines the process of data cleaning and standardization using Pyt
    df.info()
    ```
 
-   - Seprating the years from the Date Column
+- Seprating the years from the Date Column
    ```python
    df['Date'] = pd.to_datetime(df['Date'])
    
@@ -60,7 +60,7 @@ This section outlines the process of data cleaning and standardization using Pyt
    print(df)
    ```
 
-   - Separating the country from the city column and creating a new column to enhance data structure and clarity
+- Separating the country from the city column
    ```python
    df['Date'] = pd.to_datetime(df['Date'])
    
@@ -87,19 +87,19 @@ This section outlines the process of data cleaning and standardization using Pyt
 
 6. Pushing Dataset to SQL
 
-   - Creating a connection to the database
+- Creating a connection to the database
    ```python
    engine_sql = create_engine('mysql+pymysql://root:Cosmos.90@localhost:3306/credit_card_db')
    ```
 
-   - Pushing the dataset to SQL
+- Pushing the dataset to SQL
    ```python
    df.to_sql(name='credit_card', con=engine_sql, if_exists='replace', index=False)
    ```
 
-## Data Visualization
+## Insights Analysis
 
-## Results and Insights
+## Data Visualization
 
 ## Conclusion
 

@@ -1,5 +1,5 @@
 <div align="center" >
- <img src="images/poster.png" alt="poster" width="650">
+ <img src="Images/poster.png" alt="poster" width="650">
  <p> Credit Card Database</p>
 </div>
 
@@ -15,7 +15,7 @@ This section outlines the process of data cleaning and standardization using Pyt
 
 ### Python
 
--  Importing the libraries
+1. Importing the libraries
     ```python
     import pandas as pd 
     import numpy as np
@@ -25,7 +25,7 @@ This section outlines the process of data cleaning and standardization using Pyt
     df = pd.read_csv('credit_card_transactions - India.csv')
     ```
 
-- Analysis of Dataset
+2. Analysis of Dataset
    ```python
    df.head()
 
@@ -38,7 +38,7 @@ This section outlines the process of data cleaning and standardization using Pyt
    df.duplicated().sum()
    ```
 
-- Standardizing and Cleaning Data
+3. Standardizing and Cleaning Data
    
    - Date Conversion from object to int64
    ```python
@@ -73,24 +73,26 @@ This section outlines the process of data cleaning and standardization using Pyt
    df.head()
    ```
 
-- Removing Index Column
+4. Removing Index Column
    ```python
    df = df.drop(columns=['index'])
 
    print(df)
    ```
 
-- Saving the file in .csv format
+5. Saving the file in .csv format
    ```python
    df.to_csv('cleaned_data.csv', index=False)
    ```
 
-- Connecting to SQL
+6. Pushing Dataset to SQL
+
+   - Creating a connection to the database
    ```python
    engine_sql = create_engine('mysql+pymysql://root:Cosmos.90@localhost:3306/credit_card_db')
    ```
 
-   - Saving the file in .csv format
+   - Pushing the dataset to SQL
    ```python
    df.to_sql(name='credit_card', con=engine_sql, if_exists='replace', index=False)
    ```

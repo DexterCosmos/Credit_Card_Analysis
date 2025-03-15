@@ -6,12 +6,12 @@
 
 ## Table of Contents
 
-- [Introduction](#introduction)
-- [Data Description](#data-description)
-- [Data Cleaning](#data-cleaning)
-- [Data Analysis](#data-analysis)
-- [Results and Insights](#results-and-insights)
-- [Conclusion](#conclusion)
+- [Introduction](introduction)
+- [Data Description](data-description)
+- [Data Cleaning](data-cleaning)
+- [Data Analysis](data-analysis)
+- [Results and Insights](results-and-insights)
+- [Conclusion](conclusion)
 
 ## Introduction
 

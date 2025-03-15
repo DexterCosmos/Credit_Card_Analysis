@@ -1,6 +1,7 @@
+
 <div align="center" >
     <img src="Images/poster.png" alt="poster" width="650">
-    <p> Credit Card Database</p>
+    <h1> Credit Card Database</h1>
 </div>
 
 
@@ -17,7 +18,7 @@ This section outlines the process of data cleaning and standardization using Pyt
 
 1. Importing the libraries
     ```python
-    import pandas as pd 
+    import pandas as pd
     import numpy as np
     import pymysql
     from sqlalchemy import create_engine

@@ -1,4 +1,5 @@
-<div>
- <img src="" alt="poster" align="center" width="650">
- <p></p>
+<div align="center" >
+ <img src="images/poster.png" alt="poster" width="650">
+ <p> Credit Card Database</p>
 </div>
+

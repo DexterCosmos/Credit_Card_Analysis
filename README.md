@@ -1,6 +1,6 @@
 
 <div align="center" >
-    <img src="images/Poster.png" alt="poster" width="650">
+    <img src="images/Poster.png" alt="poster" width="450">
     <h1> Credit Card Database</h1>
 </div>
 

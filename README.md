@@ -52,7 +52,7 @@ This section outlines the process of data cleaning and standardization using Pyt
    df.info()
    ```
 
-- Seprating the years from the Date Column
+- Seprating the years and months from the Date Column
    ```python
    df['Date'] = pd.to_datetime(df['Date'])
    
@@ -61,7 +61,15 @@ This section outlines the process of data cleaning and standardization using Pyt
    print(df)
    ```
 
-- Separating the country from the city column
+   ```python
+   df['Date'] = pd.to_datetime(df['Date'])
+   
+   df['Month'] = df['Date'].dt.strftime('%b')
+   
+   print(df)
+   ```
+
+- Seprating the country from the city column
    ```python
    df['Date'] = pd.to_datetime(df['Date'])
    

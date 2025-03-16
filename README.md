@@ -133,7 +133,7 @@ In this section, I have analyzed the insights derived from the cleaned and stand
 - Spending Trends by Card Type and Year
 - Average Spending by Gender
 
-- Prototype
+### **Prototype**
 
    ```sql
    -- Monthly Spending Trends by Year

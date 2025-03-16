@@ -205,7 +205,7 @@ In this section, I present visualizations that showcase the insights derived fro
 
 <img src="Images/Dashboard3.png" alt="dashboard3">
 
-## Conclusion
+## Impact
 
 In this project, I have successfully analyzed the insights derived from the cleaned and standardized dataset using a combination of Power BI, SQL, and Python. SQL was employed to efficiently query and manipulate the data, ensuring a structured and systematic extraction of relevant information. Python was utilized for advanced data preprocessing, exploratory analysis, and integration with visualization tools. Finally, Power BI was used to create interactive and visually compelling dashboards, enabling a clear and intuitive representation of the insights to support informed decision-making.
 

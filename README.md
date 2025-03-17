@@ -195,15 +195,7 @@ In this section, I present visualizations that showcase the insights derived fro
 
 - Dashboard 1
 
-<img src="Images/Dashboard1.png" alt="dashboard1">
-
-- Dashboard 2
-
-<img src="Images/Dashboard2.png" alt="dashboard2">
-
-- Dashboard 3
-
-<img src="Images/Dashboard3.png" alt="dashboard3">
+<img src="images/dashboard.png" alt="dashboard">
 
 ## Impact
 

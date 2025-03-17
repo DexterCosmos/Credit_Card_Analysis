@@ -195,7 +195,7 @@ In this section, I present visualizations that showcase the insights derived fro
 
 - Dashboard 1
 
-<img src="images/dashboard.png" alt="Dashboard" title="Dashboard" width="500" height="300">
+<img src="images/dashboard.png" alt="Dashboard">
 
 ## Impact
 
